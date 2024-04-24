@@ -1,4 +1,4 @@
-# VisitorPattern
+# Problem Statement
 
 Imagine you are looking for a new mobile plan for your smartphone. Three major telecommunication providers are offering enticing deals: Smart, Globe, and Ditto.
 
@@ -28,5 +28,10 @@ public class TelcoPromo {
     System.out.println("Ditto unlimited calls and text package: " +
 
                                    unli.showUnliCallsTextOffer(ditto.getTelcoName(), ditto.getUnliCallText()));
-  }
-}
+                                   }
+                                  }
+
+   # UML DIAGRAM
+   - Visitor Pattern
+![image](https://github.com/ErikkaEnaje/VisitorPattern/assets/142382057/484bdc7e-b0e9-4d6d-bf04-570e226759ce)
+
